@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(78, 78, 78);
+}
+#joblistings{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(146, 145, 145,0.1);
+}
+#filters{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(146, 145, 145,0.1);
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+input,select,button{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: green;
+}
+#salaryvalve{
+    display:inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+#joblistings div{
+    border-bottom: 1px solid white ;
+    padding: 10px;
+}
+#joblistings div:last-child{
+    border-bottom:none ;
+}
